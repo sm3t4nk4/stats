@@ -67,8 +67,8 @@ function tranformData(inputData) {
     j += 2;
   }
   console.log(resultArray);
-  namesOutput.value = namesArray.join(" ");
-  timesOutput.value = timesArray.join(" ");
+  namesOutput.value = namesArray.join("     ");
+  timesOutput.value = timesArray.join("     ");
 }
 
 mainInput.addEventListener("change", (event) =>
